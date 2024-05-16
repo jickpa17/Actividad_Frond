@@ -1,7 +1,27 @@
-/* Estilos generales */
-/* Estilos personalizados para el footer */
+/* Estilos personalizados */
+
+nav {
+  background-color: #5fa7ef;
+}
+
+/* Estilos para las tarjetas de películas */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el botón "Ver Detalles" en las tarjetas */
+.card-body .btn {
+  margin-top: 10px;
+}
+
+/* Estilos para el contenido del modal */
+.modal-body {
+  text-align: center;
+}
+
+/* Estilos para el pie de página */
 footer {
-  background-color: #343a40;
-  color: #ffffff;
+  margin-top: 50px;
   padding: 20px 0;
+  background-color: #5fa7ef;
 }
