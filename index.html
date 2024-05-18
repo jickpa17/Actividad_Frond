@@ -8,6 +8,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Estilos personalizados -->
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
 
@@ -40,6 +41,7 @@
   <div class="row">
     <!-- Listado de películas -->
     <div class="col-md-8" id="moviesContainer">
+      <!--  película  Beekeeper -->
       <div class="card mb-3">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -50,13 +52,13 @@
               <h5 class="card-title">Beekeeper</h5>
               <p class="card-text">La brutal campaña de venganza de un hombre adquiere dimensiones nacionales 
                 cuando se descubre que es un antiguo agente de una poderosa organización clandestina conocida como “Los apicultores”.</p>
-              <p class="Accion">Género: Acción</p>
+              <p class="Acción">Género: Acción</p>
               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Beekeeper">Ver Detalles</a>
             </div>
           </div>
         </div>
       </div>
-
+<!--  película pobres criaturas -->
       <div class="card mb-3">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -65,7 +67,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Pobres Criaturas</h5>
-              <p class="card-text">LBella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, 
+              <p class="card-text">Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter. Bajo la protección de Baxter, Bella está ansiosa por aprender. Hambrienta de la mundanidad que le falta, Bella se escapa con Duncan Wedderburn, un sofisticado y perverso abogado, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, 
                 Bella se vuelve firme en su propósito de defender la igualdad y la liberación.</p>
                 <p class="Drama">Género: Drama</p>
               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Pobres">Ver Detalles</a>
@@ -74,6 +76,24 @@
         </div>
       </div>
 
+      <!--  película tres mosqueteros -->
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="img/Mosqueteros.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Los Tres Mosqueteros 2: Milady</h5>
+              <p class="card-text">Constance Bonacieux es secuestrada enfrente de D’Artagnan. El joven espadachín une fuerzas con los expertos soldados Athos, Portos y Aramis para, 
+                en compañía de la enigmática Milady de Winter, salvar a Constance.</p>
+                <p class="Acción">Género: Acción</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#mosqueteros">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--  película duna -->
       <div class="card mb-3">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -132,6 +152,30 @@
       </div>
       <div class="modal-body">
         <img src="img/Pobres.jpeg" class="img-fluid" alt="...">
+        <p>Sinopsis de la película.</p>
+        <p><strong>Actores:</strong> Emma Stone, Mark Ruffalo, Willem Dafoe</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para mostrar detalles de la película "tres mosqueteros" -->
+
+<div class="modal fade" id="mosqueteros" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Los Tres Mosqueteros 2: Milady</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="img/Mosqueteros.jpg" class="img-fluid" alt="...">
         <p>Sinopsis de la película.</p>
         <p><strong>Actores:</strong> Emma Stone, Mark Ruffalo, Willem Dafoe</p>
         
